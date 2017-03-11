@@ -1,9 +1,4 @@
 '.text.html.smarty, .source.smarty':
- 'assign':
-   'prefix': 'assign'
-   'body': '''
-      {assign var="${1:name}" value=${2:value}${4: scope=${3:scope}}}$0
-    '''
  'break':
    'prefix': 'break'
    'body': '''
