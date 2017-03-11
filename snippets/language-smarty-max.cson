@@ -1,4 +1,11 @@
 '.text.html.smarty, .source.smarty':
+ 'ajax':
+   'prefix': 'ajax'
+   'body': '''
+      {ajax type="snippet" name="$0"}
+          $1
+      {/ajax}
+   '''
  'break':
    'prefix': 'break'
    'body': '''
