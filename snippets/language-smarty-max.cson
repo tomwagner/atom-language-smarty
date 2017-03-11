@@ -6,6 +6,13 @@
           $0
       {/ajax}
    '''
+ 'block':
+   'prefix': 'block'
+   'body': '''
+    {block ${2:${1:name}}}
+        $0
+    {/block}
+   '''
  'break':
    'prefix': 'break'
    'body': '''
